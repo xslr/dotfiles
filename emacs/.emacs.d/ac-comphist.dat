@@ -1,0 +1,176 @@
+((("eink-theme" .
+   [0 0 0 0 0 1 0 0 0 1])
+  ("getenv" .
+   [1 0 0 0 0 0])
+  ("exec-path" .
+   [0 0 0 0 0 0 0 0 1])
+  ("fmt" .
+   [1 0 0])
+  ("solarized-dark" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("rainbow-delimiters-mode" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ido-use-faces" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("keys" .
+   [2 0 0 0])
+  ("tocsv" .
+   [1 0 0 0 0])
+  ("element" .
+   [2 0 0 0 0 0 0])
+  ("REPLACEME_FIELD_NAME" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("xpath_base" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("url" .
+   [5 0 0])
+  ("requests" .
+   [1 0 0 0 0 0 0 0])
+  ("cpu_page_xpath" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("content" .
+   [1 0 0 0 0 0 0])
+  ("search_page" .
+   [0 0 1 0 0 0 0 0 0 0 0])
+  ("fromstring" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("get_cpu_tree" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("results" .
+   [4 0 0 0 0 0 0])
+  ("text" .
+   [1 0 0 0])
+  ("field" .
+   [4 0 0 0 0])
+  ("fields" .
+   [4 0 0 0 0 0])
+  ("launched" .
+   [0 0 0 0 0 0 1 0])
+  ("xpath" .
+   [8 0 0 0 0])
+  ("parse_cpu_tree" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("codename" .
+   [1 0 0 0 0 0 0 0])
+  ("page" .
+   [2 0 0 0])
+  ("query" .
+   [3 0 0 0 0])
+  ("replace" .
+   [2 0 0 0 0 0 0])
+  ("query_base" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("tree" .
+   [12 0 0 0])
+  ("name" .
+   [2 0 0 0])
+  ("cpus" .
+   [1 0 0 0])
+  ("process_cpus" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("cpu_info" .
+   [5 0 0 0 0 0 0 0])
+  ("cpu_names" .
+   [1 0 0 0 0 0 0 0 0])
+  ("cpu_name" .
+   [4 0 0 0 0 0 0 0])
+  ("cpu" .
+   [2 0 0])
+  ("get_cpu" .
+   [1 0 0 0 0 0 0])
+  ("runpy" .
+   [0 0 1 0 0])
+  ("helm" .
+   [1 0 0 0])
+  ("projectile" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("set-frame-font" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("set-default-font" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("ido-vertical-mode" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("setq" .
+   [7 0 0 0])
+  ("menu-bar-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("smex-major-mode-commands" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("kbd" .
+   [2 0 0])
+  ("global-set-key" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 1])
+  ("smex-initialize" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("smex" .
+   [1 0 0 1])
+  ("require" .
+   [4 0 0 0 0 0 2])
+  ("tool-bar-mode" .
+   [1 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("nil" .
+   [4 0 0])
+  ("add-to-list" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("load-theme" .
+   [3 0 0 0 0 0 0 0 0 1])
+  ("solar" .
+   [0 0 0 0 1])
+  ("flycheck" .
+   [0 0 0 0 1 0 0 0])
+  ("provide" .
+   [1 0 0 0 0 0 0])
+  ("init" .
+   [2 0 0 0])
+  ("global-flycheck-mode" .
+   [1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("ido-enable-flex-matching" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("projectile-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("solarized-light" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("setq-default" .
+   [1 0 0 0 0 0 0 0 1 0 0 0])
+  ("tab-width" .
+   [1 0 0 0 0 2 0 0 0])
+  ("c-basic-offset" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("standard-indent" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("Index" .
+   [0 0 0 0 1])
+  ("indent-tabs-mode" .
+   [1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("concat" .
+   [1 0 0 0 0 0])
+  ("main" .
+   [1 0 0 0])
+  ("PixelRGBA8" .
+   [0 0 0 0 1 1 1 0 0 0])
+  ("Graphics" .
+   [1 0 0 0 0 0 0 0])
+  ("Rasterific" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("white" .
+   [1 0 0 0 0])
+  ("drawColor" .
+   [1 0 0 0 0 0 0 0 0])
+  ("CapRound" .
+   [0 0 0 0 0 1 0 0])
+  ("circle" .
+   [1 0 0 0 0 0])
+  ("withTexture" .
+   [0 0 0 0 0 0 0 0 1 0 0])
+  ("uniformTexture" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("recColor" .
+   [1 0 0 0 0 0 0 0])
+  ("fill" .
+   [1 0 0 0])
+  ("writePng" .
+   [0 0 0 0 0 0 0 1])
+  ("img" .
+   [1 0 0])
+  ("eink" .
+   [1 0 0 0])))

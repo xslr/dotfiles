@@ -1,0 +1,138 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/subratm/projects/homesec/nvr/" . "src/")
+ ("/home/subratm/projects/homesec/" . "nvr/")
+ ("/subratm@192.168.0.8:/home/subratm/nvr/" . "nvrapp/")
+ ("/subratm@192.168.0.8:/home/subratm/" . "nvr/")
+ ("/subratm@192.168.0.8:/home/" . "subratm/")
+ ("/subratm@192.168.0.8:/" . "home/")
+ ("/192.168.0.8:/home/subratm/nvr/" . "nvrapp/")
+ ("/192.168.0.8:/home/subratm/" . "nvr/")
+ ("/192.168.0.8:/home/" . "subratm/")
+ ("/home/subratm/projects/elmy/elm-architecture-tutorial/" . "examples/")
+ ("/home/subratm/projects/elmy/" . "elm-architecture-tutorial/")
+ ("/home/subratm/projects/" . "homesec/")
+ ("/sudo:root@zed:/etc/" . "php.d/")
+ ("/home/subratm/.config/" . "i3/")
+ ("/home/subratm/.local/share/" . "applications/")
+ ("/home/subratm/.local/" . "share/")
+ ("/home/subratm/Projects/PickUp/sw/" . "gobackend/")
+ ("/home/subratm/Projects/PickUp/" . "sw/")
+ ("/home/subratm/Projects/" . "proglang-a/")
+ ("/home/subratm/Documents/" . "cv_chrono/")
+ ("/home/subratm/Downloads/.xyz/" . "li/")
+ ("/home/subratm/Downloads/" . ".xyz/")
+ ("/home/subratm/" . "projects/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ #("/home/subratm/.emacs.d/" 14 23 (face flx-highlight-face))
+ "/home/subratm/.config/i3/"
+ "/home/subratm/projects/temp/d3/"
+ "/home/subratm/projects/"
+ "/home/subratm/projects/homesec/nvr/"
+ "/home/subratm/projects/homesec/nvr/src/"
+ "/scp:subratm@192.168.0.8:/home/subratm/nvr/nvrapp/"
+ "/subratm@192.168.0.8:/home/subratm/nvr/nvrapp/src/"
+ "/subratm@192.168.0.8:"
+ "/home/subratm/"
+ "/192.168.0.8:/home/subratm/nvr/nvrapp/src/"
+ "/home/subratm/projects/elmy/elm-architecture-tutorial/examples/"
+ "/home/subratm/projects/elmy/elm-architecture-tutorial/"
+ "/home/subratm/projects/hsui/"
+ "/home/subratm/.config/polybar/"
+ "/sudo::/etc/"
+ "/etc/"
+ "/home/subratm/Projects/proglang-a/"
+ "/home/subratm/.local/share/applications/"
+ "/home/subratm/Projects/PickUp/sw/gobackend/"
+ "/home/subratm/scripts/"
+ "/home/subratm/Documents/"
+ "/home/subratm/Documents/cv_chrono/"
+ "/home/subratm/Downloads/.xyz/li/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ #("init.el" 0 3 (face flx-highlight-face))
+ "config"
+ "test1.html"
+ "temp"
+ "Cargo.toml"
+ "main.rs"
+ "subratm@192.168.0.8"
+ "05-http.elm"
+ "03-form.elm"
+ "elm-package.json"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/subratm/.emacs.d/" (23419 9493 429663 976000) "tramp" "../" "./" "ac-comphist.dat" "session.107f2bab9c73b7f897150975523755218300000015570089" "smex-items" "elpa/" "ido.last" "auto-save-list/" "ido.last~" "init.el~" "init.el" "projectile-bookmarks.eld")
+
+ ("/home/subratm/" (23418 57883 799185 804000) ".bash_profile" "x.png" ".esd_auth" ".minecraft/" ".gitconfig" ".fonts/" ".cache/" "kicadlib/" "package-lock.json" "scripts/" "Music/" ".zsh_history" ".bashrc" ".Xdefaults" ".npmrc" ".npm/" "subratm.kmy.1~" ".node/" ".AndroidStudio2.3/" ".pm2/" "new.png" ".FreeCAD/" "Chill Wave-TRiBpYgjFD4.m4a" ".android/" ".m2/" ".steampath" "toolchain/" ".gradle/" "../" "Documents/" ".dvdcss/" ".IdeaIC2018.1/" "Devel/" ".ghc/" "tremor/" "subratm.kmy" ".argouml/" "elm-package.json" ".gdbinit" "Greatest Love Songs - Beautiful Japanese Songs Mix-5oQZsp3SfLE.m4a" ".stack/" "old.png" ".viminfo" "Pictures/" "projects/" ".steampid" "Videos/" "Templates/" ".aqbanking/" "./" "keystore/" "spk.csv" ".steam/" "Naruto Hokage Funeral Theme-mmqJ4Vzwe40.m4a" "Apps/" ".AndroidStudio3.0/" "node_modules/" ".xinitrc" "ipv6.png" ".python_history" ".sbt/" ".pki/" ".ICEauthority" ".ivy2/" ".zcompdump-zed-5.4.1" ".gimp-2.8/" ".cargo/" ".gnupg/" ".elm/" ".java/" ".zcompdump-zed-5.3.1" ".zcompdump-zed-5.2" ".profile" "elm-stuff/" ".mozilla/" ".zsh-update" "Greatest Love Songs - Beautiful Japanese Songs Mix-5oQZsp3SfLE.webm" ".yEd/" ".oracle_jre_usage/" ".gitignore_global" ".gtkrc-2.0" "AndroidStudioProjects/" ".vim/" ".bash_history" ".fehbg" "Fonts/" ".install4j" "Public/" ".config/" ".Xdefaults~" ".mysql_history" ".lesshst" ".xmonad/" "니화, NiiHWA - What I Want by 매드독 OST Part 2-npFRaC2RKjk.m4a" ".zshrc" ".zcompdump-zed-5.5.1" "Desktop/" "datasheet/" ".kde/" ".rustup/" ".gphoto/" ".bash_logout" "IdeaProjects/" ".local/" ".gnome/" ".IdeaIC2017.2/" "bin/" ".oh-my-zsh/" ".multirust/" ".ssh/" ".ipython/" ".thumbnails/" ".emacs.d/" "Downloads/" "cvs/")
+
+ ("/home/subratm/.config/i3/" (23278 50932 240554 937000) "config" "../" "./" "config.old" "config~")
+
+ ("/home/subratm/.config/" (23314 41676 619936 354000) "user-dirs.dirs" "kicad/" "totem/" "gnome-session/" "emailidentities" "pulse/" "yelp/" "mimeapps.list" "zathura/" "nautilus/" "csvexporterrc" "QtProject.conf" "ghb/" "gnome-control-center/" "KVIrc/" "i3.backup/" "configstore/" "okularpartrc" "jaxx/" "gtk-4.0/" "gtk-3.0/" "menus/" "streamlink/" "monitors.xml" "../" "libreoffice/" "gnome-boxes/" "htop/" "kmymoney/" "i3/" "autostart/" "eog/" "vlc/" "chromium/" "monitors-v1-backup.xml" "./" "polybar/" "kmymoneyrc" "gtk-2.0/" "okularrc" "FreeCAD/" "opera-developer/" "homebank/" "pavucontrol.ini" "gconf/" "Kitware/" "gedit/" "kvirc" "ibus/" "user-dirs.locale" "session/" "google-chrome-unstable/" "Trolltech.conf" "enchant/" "google-chrome/" "hexchat/" "abrt/" "goa-1.0/" "etcher-electron/" "dconf/" "monitors.xml~" "mpv/" "gnome-initial-setup-done" "transmission/" "libvirt/" "fontconfig/" "cef_user_data/" "evolution/" "i3status/" "wireshark/" "emaildefaults")
+
+ ("/home/subratm/Documents/" (23228 62673 815627 414000) "z800cpus.py~" "boarding passes image2018-03-16-195753.pdf" "../" "alten/" "./" "identification/" "z800cpus.py" "home24-10106004297788.pdf" "SPEC_PSU_FSP250-30PFJ_Rev.1.3.pdf" "home sec/" "hitesh rent 201801.pdf" "z800cpus.csv" "cv_chrono/" "house/" "home24-10106004299819.pdf" "Books/")
+
+ ("/home/subratm/.local/share/applications/" (23252 38255 89824 337000) "yEd Graph Editor-0.desktop" "Nightly.desktop" "mimeapps.list" "../" "appimagekit-Etcher.desktop" "chrome-apdfllckaahabafndbhieahigkjlhalf-Default.desktop" "jetbrains-idea-ce.desktop" "./" "android-studio.desktop" "chrome-blpcfgokakmgnkcojhhkbfbldkacnbeo-Default.desktop" "android-studio.desktop~" "chrome-felcaaldnbdncclmgdcncolpebgiejap-Default.desktop" "chrome-aohghmighlieiainnegkcijnfilokake-Default.desktop" "chrome-pjkljhegncpnkpknbcohdijeoejaedia-Default.desktop" "chrome-nmmhkkegccagdldgiimedpiccmgmieda-Default.desktop" "mimeinfo.cache" "chrome-aapocclcgogkmnckokdopfmhonfmgoek-Default.desktop")
+
+ ("/etc/" (23266 63687 793311 509000) "sudoers" "nginx/" "rc1.d/" "gdbinit.d/" "subgid-" "wpa_supplicant/" "jvm-commmon/" "i3/" "radvd.conf" "rc.d/" "issue.net" "dbus-1/" "vconsole.conf" "popt.d/" "fcoe/" "scl/" "xinetd.d/" "aliases" "fw_env.config" "php.ini~" "host.conf" "DIR_COLORS.lightbgcolor" "OpenCL/" "krb5.conf.d/" ".updated" "zlogin" "rdma/" "hba.conf" "foomatic/" "vpnc/" "dnf/" "yum.repos.d/" "X11/" "audit/" "makedumpfile.conf.sample" "php-fpm.d/" "locale.conf" "cron.hourly/" "subgid" "environment" "php.ini" "protocols" "filesystems" "gconf/" "DIR_COLORS.256color" "statetab.d/" "openldap/" "brltty.conf" "security/" "sasl2/" "modprobe.d/" "mke2fs.conf" "localtime" "dnsmasq.d/" "at.deny" "sysctl.conf" "usb_modeswitch.conf" "drirc" "grub2.cfg" "mime.types" "conky/" "i3status.conf" "dracut.conf.d/" "zfs-fuse/" "crypto-policies/" "kderc" "tcsd.conf" "xdg/" "hostname" "bash_completion.d/" "dconf/" "sudoers.d/" "nsswitch.conf.rpmnew" "dhcp/" "init.d/" ".java/" "sbt/" "mcelog/" "flatpak/" "resolv.conf" "kdump.conf" "zlogout" "rc0.d/" "ethertypes" "tmpfiles.d/" "mpd.conf" "bashrc" "modules-load.d/" "gamin/" "chkconfig.d/" "fedora-release" "lvm/" "vimrc" "passwdqc.conf" "motd" "passwd-" "magic" "polkit-1/" "hosts.allow" "mtab" "services" "GREP_COLORS" "adjtime" "libibverbs.d/" "networks" "openvpn/" "sane.d/" "audisp/" "trusted-key.key" "fstab" "egl/" "vmware-tools/" "DIR_COLORS" "default/" "chrony.keys" "nsswitch.conf.bak" "virc" "grub.d/" "rc5.d/" "rwtab" ".pwd.lock" "gcrypt/" "rwtab.d/" "shadow" "updatedb.conf" "firewalld/" "vdpau_wrapper.cfg" "vulkan/" "my.cnf" "hosts" "modulefiles/" "rc6.d/" "e2fsck.conf" "alsa/" "printcap" "libaudit.conf" "csh.cshrc" "csh.login" "request-key.d/" "shells" "profile" "cups/" "exports" "libblockdev/" "cron.weekly/" "rc2.d/" "rpm/" "gdbinit" "system-release" "cron.monthly/" "mailcap" "favicon.png" "mail.rc" "os-release" "xml/" "gnupg/" "my.cnf.d/" "passwd" "groff/" "exports.d/" "bluetooth/" "system-release-cpe" "sestatus.conf" "kde/" "request-key.conf" "alternatives/" "xattr.conf" "plymouth/" "skel/" "pm/" "cron.deny" "pipewire/" "ppp/" "ld.so.conf" "zprofile" "wgetrc" "ostree/" "crontab" "ld.so.conf.d/" "nanorc" "dnsmasq.conf" "systemd/" "geoclue/" "yum/" "subuid" "php-zts.d/" "qemu/" "udisks2/" "glvnd/" "ld.so.cache" "youtube-dl.conf" "php.d/" "jwhois.conf" "setuptool.d/" "inittab" "cron.d/" "gshadow" "iscsi/" "redhat-release" "idmapd.conf" "depmod.d/" "shadow-" "crypttab" "redhat-lsb/" "group" "profile.d/" "texlive/" "rc3.d/" "fprintd.conf" "pinforc" "Trolltech.conf" "binfmt.d/" "login.defs" "php-fpm.conf" "speech-dispatcher/" "hp/" "hosts.deny" "terminfo/" "man_db.conf" "inputrc" "wvdial.conf" "ssl/" "nfsmount.conf" "brltty/" "pkcs11/" "asound.conf" "zshenv" "fonts/" "sos.conf" "jvm/" "nsswitch.conf" "chrony.conf" "cupshelpers/" "anacrontab" "pki/" "sysconfig/" "logrotate.d/" "issue" "opt/" "gshadow-" "multipath/" "ImageMagick-6/" "subuid-" "highlight/" "machine-info" "logrotate.conf" "avahi/" "zm/" "setroubleshoot/" "selinux/" "machine-id" "ssh/" "httpd/" "mtools.conf" "gssproxy/" "libuser.conf" "gdm/" "netconfig" "PackageKit/" "smi.conf" "fwupd/" "cron.daily/" "krb5.conf" "prelink.conf.d/" "gimp/" "grub2-efi.cfg" "rc4.d/" "kernel/" "corosync/" "java/" "openal/" "abrt/" "mpv/" "rygel.conf" "lsb-release.d/" "zshrc" "firefox/" "rpc" "extlinux.conf" "udev/" "gss/" "samba/" "libnl/" "memtest86+.conf" "sssd/" "NetworkManager/" "dracut.conf" "UPower/" "cifs-utils/" "pam.d/" "dleyna-server-service.conf" "rhashrc" "iproute2/" "statetab" "brlapi.key" "sgml/" "sysctl.d/" "kde4rc" "slp.conf" "group-" "libreport/" "pulse/" "libvirt/" "fuse.conf" "nfs.conf" "../" "./")
+
+ ("/home/subratm/projects/homesec/nvr/src/" (23209 43879 790520 160000) "../" "main.rs" "./")
+
+ ("/home/subratm/projects/homesec/nvr/" (23209 40198 295624 5000) "src/" "Cargo.toml" "../" ".git/" "./" "target/" "Cargo.lock" ".gitignore" "out.ts")
+
+ ("/home/subratm/projects/" (23264 63023 354475 267000) "orangepi_h3_linux/" "hsui/" "PickUp/" "../" "elmy/" "homesec/" "./" "polybar/" "led disp/" "siji/" "Shinobi/" "material-design-icons/" "x264/" "proglang-a/")
+
+ ("/home/subratm/projects/homesec/" (23187 742 707752 772000) "ffmcedrus/" "design/" "../" "./" "forbes cost" "nvr/")
+
+ ("/home/subratm/projects/elmy/elm-architecture-tutorial/" (23171 25640 454248 123000) "LICENSE" "README.md" "../" "elm-package.json" ".git/" "./" "examples/" ".gitignore" "elm-stuff/")
+
+ ("/home/subratm/projects/elmy/elm-architecture-tutorial/examples/" (23168 54199 862463 573000) "Dice-5.svg" "06-clock.elm" "../" "Dice-3.svg" "./" "Dice-6.svg" "07-websockets.elm" "09-radio.elm" "08-checkboxes.elm" "05-http.elm" "03-form.elm" "Dice-1.svg" "Dice-4.svg" "01-button.elm" "04-random.elm" "02-field.elm" "Dice-2.svg")
+
+ ("/home/subratm/.config/polybar/" (23159 19881 480577 46000) "config" "../" "./" "launch.sh" "config__" "config~")
+
+ ("/home/subratm/projects/elmy/" (23166 55990 323570 862000) "../" "./" "elm-architecture-tutorial/")
+
+ ("/home/subratm/projects/hsui/" (23160 54725 164119 126000) "Setup.hs" "src/" "test/" "LICENSE" "README.md" "../" "stack.yaml" ".stack-work/" "ChangeLog.md" "package.yaml~" "./" "yourimage.png" "run.sh" ".gitignore" "stack.yaml~" "app/" "hsui.cabal" "package.yaml")
+
+ ("/home/subratm/projects/hsui/app/" (23160 51143 144341 17000) "../" "./" "Main.hs" "Main.hs~")
+
+ ("/home/" (22914 24825 0 0) "lost+found/" "../" "subratm/" "./")
+
+ ("/home/subratm/Projects/hsui/" (23150 2724 573386 141000) "../" "./" ".#stack.yaml")
+
+ ("/home/subratm/Projects/proglang-a/" (23149 1644 440878 702000) "hw1test.sml~" "hw3.sml~" "hw1test.sml" "hw3.sml" "../" "hw2.sml" "hw0provided.sml~" "hw2.sml~" "scratch.sml" "test.sml" "hw3.pdf" "./" "hw3test.sml" "hw0provided.sml" "hw2test.sml" "hw2.pdf" "hw2test.sml~" "hw1.sml" "hw2provided.sml" "section1sum.pdf" "hw1.sml~" "test.sml~" "hw1.pdf")
+
+ ("/home/subratm/Projects/" (23139 44132 93249 190000) "PickUp/" "../" "homesec/" "./" "Shinobi/" "proglang-a/")
+
+ ("/home/subratm/Documents/cv_chrono/" (23051 25934 758487 427000) "resume.pdf" "resume subrat meher 2017.06.14.pdf" "Resume_Subrat_Meher.pdf" "resume.log" "resume.aux" "coverletter/" "resume_visa_eu.tex" "resume.cls" "../" "resume_Subrat_Meher_20160211.pdf" "resume subrat meher.pdf" ".git/" "./" "resume subrat meher 2014_08_02.pdf" "resume_amazon.log" "resume_amazon.tex" "resume subrat meher 2014_07_29.pdf" ".gitignore" "resume_visa_eu.log" "resume autodesk 20140529-1004.pdf" "hackmyresume/" "resume_visa_eu.tex~" "resume subrat meher 2016.10.12.pdf" "resume.tex" "resume_Subrat_Meher_20150811.pdf" "resume subrat meher 20160301.pdf" "resume_amazon.pdf" "resume_visa_eu.pdf" "resume autodesk 20140529-0935.pdf")
+
+ ("/home/subratm/Projects/PickUp/sw/gobackend/" (23038 6285 82971 296000) "../" "hello.go~" "hello.go" "./" "gobackend")
+
+ ("/home/subratm/.local/share/" (23037 56934 758725 236000) "JetBrains/" "totem/" "app-info/" "sounds/" "icons/" "nautilus/" "rhythmbox/" "shotwell/" "gegl-0.2/" "gnome-shell/" "../" "gnome-boxes/" "gnome-settings-daemon/" "Trash/" "mime/" "./" "keyrings/" "folks/" "recently-used.xbel" "webkitgtk/" "icc/" "gstreamer-1.0/" "tracker/" "gvfs-metadata/" "applications/" "gsettings-data-convert" "flatpak/" "evolution/")
+
+ ("/home/subratm/.local/" (23010 3954 555084 864000) "share/" "../" "./" "lib/" "bin/")
+
+ ("/home/subratm/Projects/PickUp/sw/" (23036 62377 961275 890000) "../" "./" "gobackend/")
+
+ ("/home/subratm/Projects/PickUp/" (23036 62364 135281 921000) "sw/" "design/" "../" "./")
+
+ ("/home/subratm/scripts/" (23028 50401 882221 377000) "../" "arkdump.py" ".git/" "./")
+
+ ("/home/subratm/Downloads/.xyz/li/" (22998 46656 382040 295000) "../" "AAEAAQAAAAAAAATgAAAAJGQzNGQzZTNlLTFiYzYtNGExOS1iMmYwLWM1NzZiZmZmOWFlZA.jpg" "./" "AAEAAQAAAAAAAALJAAAAJDJiNmQ2MDVjLTljNTMtNGNiZi1iOGRlLTM2OTY5ZjNkMjNkMA.jpg" "AAEAAQAAAAAAAAcgAAAAJDFkODM0N2QyLWQxNzEtNGQ5Yy1hNDdmLTIwYWFhMDY1OTgwOA.jpg")
+
+ ("/home/subratm/Downloads/.xyz/" (22998 46656 382040 295000) "li/" "niu/" "../" "./" "natty/")
+
+ ("/home/subratm/Downloads/" (22999 31590 456744 729000) "blau-preisliste-prepaid.pdf" ".xyz/" "go1.9.linux-amd64.tar.gz" "../" "./" "StarUML-v2.8.0-64-bit.deb" "staruml/" "Screenshot-2017-10-2 Freischalten.png")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

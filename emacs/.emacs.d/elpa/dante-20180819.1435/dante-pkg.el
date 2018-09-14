@@ -1,0 +1,2 @@
+;;; -*- no-byte-compile: t -*-
+(define-package "dante" "20180819.1435" "Development mode for Haskell" '((dash "2.12.0") (emacs "25.1") (f "0.19.0") (flycheck "0.30") (haskell-mode "13.14") (s "1.11.0") (lcr "1.0")) :commit "8b3e79971b57b68a99336aca06650cbddc85816f" :keywords '("haskell" "tools") :authors '(("Jean-Philippe Bernardy" . "jeanphilippe.bernardy@gmail.com")) :maintainer '("Jean-Philippe Bernardy" . "jeanphilippe.bernardy@gmail.com") :url "https://github.com/jyp/dante")

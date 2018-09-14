@@ -1,0 +1,54 @@
+
+;; ----- smex-history -----
+(
+ package-list-packages
+ replace-string
+ search-forward-regexp
+ load-theme
+ make-directory
+ projectile-switch-project
+ magit-push
+)
+
+;; ----- smex-data -----
+(
+ (load-theme . 13)
+ (flycheck-mode . 1)
+ (package-list-packages . 28)
+ (irony-cdb-menu . 1)
+ (imenu . 1)
+ (helm-ag . 1)
+ (project-find-file . 2)
+ (irony-mode . 1)
+ (replace-string . 12)
+ (rename-file . 2)
+ (replace-regexp . 16)
+ (run-python . 1)
+ (eval-region . 40)
+ (set-frame-font . 1)
+ (helm-find . 1)
+ (indent-region . 1)
+ (go-complete-at-point . 1)
+ (gofmt-before-save . 2)
+ (getenv . 8)
+ (mkdir . 1)
+ (eval-buffer . 2)
+ (shell . 1)
+ (customize . 1)
+ (copy-file . 3)
+ (run-sml . 1)
+ (calendar . 1)
+ (eval-expression . 2)
+ (isearch-query-replace . 4)
+ (racer-mode . 7)
+ (racer-activate . 1)
+ (projectile-switch-project . 11)
+ (magit-status . 8)
+ (magit-abort-dwim . 1)
+ (magit-commit . 2)
+ (magit-push . 4)
+ (goto-line . 1)
+ (magit-shell-command-topdir . 1)
+ (make-directory . 1)
+ (search-forward-regexp . 2)
+)
