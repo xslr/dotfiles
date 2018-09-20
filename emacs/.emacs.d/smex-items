@@ -2,17 +2,17 @@
 ;; ----- smex-history -----
 (
  package-list-packages
- replace-string
- search-forward-regexp
+ hexl-mode
  load-theme
- make-directory
- projectile-switch-project
- magit-push
+ eval-region
+ octave-mode
+ objc-mode
+ replace-string
 )
 
 ;; ----- smex-data -----
 (
- (load-theme . 13)
+ (load-theme . 15)
  (flycheck-mode . 1)
  (package-list-packages . 28)
  (irony-cdb-menu . 1)
@@ -20,11 +20,11 @@
  (helm-ag . 1)
  (project-find-file . 2)
  (irony-mode . 1)
- (replace-string . 12)
+ (replace-string . 11)
  (rename-file . 2)
  (replace-regexp . 16)
  (run-python . 1)
- (eval-region . 40)
+ (eval-region . 41)
  (set-frame-font . 1)
  (helm-find . 1)
  (indent-region . 1)
@@ -50,5 +50,7 @@
  (goto-line . 1)
  (magit-shell-command-topdir . 1)
  (make-directory . 1)
- (search-forward-regexp . 2)
+ (objc-mode . 1)
+ (octave-mode . 1)
+ (hexl-mode . 1)
 )

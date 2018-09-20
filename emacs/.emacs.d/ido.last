@@ -2,6 +2,17 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/munu/Downloads/machine-learning-ex1/" . "ex1/")
+ ("/home/munu/Downloads/" . "Single - ED 1 - My Will/")
+ ("/home/munu/Project/haskell/" . "tut/")
+ ("/usr/portage/x11-drivers/" . "nvidia-drivers/")
+ ("/usr/portage/" . "x11-drivers/")
+ ("/usr/" . "portage/")
+ ("/home/munu/.config/" . "i3blocks/")
+ ("/home/munu/Project/led disp/pcb/" . "proto_1_16x16/")
+ ("/home/munu/Project/led disp/" . "pcb/")
+ ("/home/munu/Project/" . "haskell/")
+ ("/home/munu/" . "Downloads/")
  ("/home/subratm/projects/homesec/nvr/" . "src/")
  ("/home/subratm/projects/homesec/" . "nvr/")
  ("/subratm@192.168.0.8:/home/subratm/nvr/" . "nvrapp/")
@@ -29,12 +40,20 @@
 
 ;; ----- ido-work-directory-list -----
 (
- #("/home/subratm/.emacs.d/" 14 23 (face flx-highlight-face))
- "/home/subratm/.config/i3/"
+ "/home/munu/.emacs.d/"
+ "/home/munu/Downloads/Single - ED 1 - My Will/"
+ "/home/munu/Downloads/"
+ "/home/munu/Downloads/machine-learning-ex1/ex1/"
+ "/home/munu/Project/haskell/tut/"
+ "/usr/portage/x11-drivers/nvidia-drivers/"
+ "/home/munu/.config/i3blocks/"
+ "/home/munu/.config/i3/"
+ "/home/munu/Project/led disp/pcb/proto_1_16x16/"
  "/home/subratm/projects/temp/d3/"
  "/home/subratm/projects/"
  "/home/subratm/projects/homesec/nvr/"
  "/home/subratm/projects/homesec/nvr/src/"
+ "/home/subratm/.emacs.d/"
  "/scp:subratm@192.168.0.8:/home/subratm/nvr/nvrapp/"
  "/subratm@192.168.0.8:/home/subratm/nvr/nvrapp/src/"
  "/subratm@192.168.0.8:"
@@ -42,6 +61,7 @@
  "/192.168.0.8:/home/subratm/nvr/nvrapp/src/"
  "/home/subratm/projects/elmy/elm-architecture-tutorial/examples/"
  "/home/subratm/projects/elmy/elm-architecture-tutorial/"
+ "/home/subratm/.config/i3/"
  "/home/subratm/projects/hsui/"
  "/home/subratm/.config/polybar/"
  "/sudo::/etc/"
@@ -57,27 +77,59 @@
 
 ;; ----- ido-work-file-list -----
 (
- #("init.el" 0 3 (face flx-highlight-face))
+ "init.el"
+ "01 My will [Original Mix].flac"
+ "NOX_Euro6_Diesel_299847.jpg"
+ "6483_Coloured-lights-and-the-apple-logo-on-the-wall.jpg"
+ "gradientDescent.m"
+ "tutorial.hs"
+ "nvidia-drivers-396.24.ebuild"
  "config"
+ "led_p10_16x16.kicad_pcb"
  "test1.html"
- "temp"
- "Cargo.toml"
- "main.rs"
- "subratm@192.168.0.8"
- "05-http.elm"
- "03-form.elm"
- "elm-package.json"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/subratm/.emacs.d/" (23419 9493 429663 976000) "tramp" "../" "./" "ac-comphist.dat" "session.107f2bab9c73b7f897150975523755218300000015570089" "smex-items" "elpa/" "ido.last" "auto-save-list/" "ido.last~" "init.el~" "init.el" "projectile-bookmarks.eld")
+ ("/home/munu/.emacs.d/" (23416 27284 392111 642000) "session.107f2bab9c73b7f897150975523755218300000015570089" "elpa/" "./" "auto-save-list/" "projectile-bookmarks.eld" "tramp" "ido.last" "../" "init.el~" "smex-items" "ac-comphist.dat" "amx-items" "init.el" "ido.last~")
 
- ("/home/subratm/" (23418 57883 799185 804000) ".bash_profile" "x.png" ".esd_auth" ".minecraft/" ".gitconfig" ".fonts/" ".cache/" "kicadlib/" "package-lock.json" "scripts/" "Music/" ".zsh_history" ".bashrc" ".Xdefaults" ".npmrc" ".npm/" "subratm.kmy.1~" ".node/" ".AndroidStudio2.3/" ".pm2/" "new.png" ".FreeCAD/" "Chill Wave-TRiBpYgjFD4.m4a" ".android/" ".m2/" ".steampath" "toolchain/" ".gradle/" "../" "Documents/" ".dvdcss/" ".IdeaIC2018.1/" "Devel/" ".ghc/" "tremor/" "subratm.kmy" ".argouml/" "elm-package.json" ".gdbinit" "Greatest Love Songs - Beautiful Japanese Songs Mix-5oQZsp3SfLE.m4a" ".stack/" "old.png" ".viminfo" "Pictures/" "projects/" ".steampid" "Videos/" "Templates/" ".aqbanking/" "./" "keystore/" "spk.csv" ".steam/" "Naruto Hokage Funeral Theme-mmqJ4Vzwe40.m4a" "Apps/" ".AndroidStudio3.0/" "node_modules/" ".xinitrc" "ipv6.png" ".python_history" ".sbt/" ".pki/" ".ICEauthority" ".ivy2/" ".zcompdump-zed-5.4.1" ".gimp-2.8/" ".cargo/" ".gnupg/" ".elm/" ".java/" ".zcompdump-zed-5.3.1" ".zcompdump-zed-5.2" ".profile" "elm-stuff/" ".mozilla/" ".zsh-update" "Greatest Love Songs - Beautiful Japanese Songs Mix-5oQZsp3SfLE.webm" ".yEd/" ".oracle_jre_usage/" ".gitignore_global" ".gtkrc-2.0" "AndroidStudioProjects/" ".vim/" ".bash_history" ".fehbg" "Fonts/" ".install4j" "Public/" ".config/" ".Xdefaults~" ".mysql_history" ".lesshst" ".xmonad/" "니화, NiiHWA - What I Want by 매드독 OST Part 2-npFRaC2RKjk.m4a" ".zshrc" ".zcompdump-zed-5.5.1" "Desktop/" "datasheet/" ".kde/" ".rustup/" ".gphoto/" ".bash_logout" "IdeaProjects/" ".local/" ".gnome/" ".IdeaIC2017.2/" "bin/" ".oh-my-zsh/" ".multirust/" ".ssh/" ".ipython/" ".thumbnails/" ".emacs.d/" "Downloads/" "cvs/")
+ ("/home/munu/" (23416 21936 594000 964000) ".zshrc" ".zsh_history" ".gnupg/" ".irssi/" ".vscode/" ".ivy2/" ".zcompdump-bigboi-5.5.1" "kicadlib/" ".aqbanking/" "./" "IdeaProjects/" ".cargo/" "Project/" ".config/" ".oracle_jre_usage/" "zdf-hitesh.pdf" ".lesshst" "books/" ".oh-my-zsh/" ".stack/" ".rustup/" "vm/" ".local/" "SteamLibrary/" ".Xdefaults" ".cache/" ".pulse-cookie" ".android/" ".serverauth.3535" ".bash_profile" ".octave_hist" ".IdeaIC2018.1/" ".xinitrc" ".emacs.d/" ".bashrc" "subratm.kmy.2~" "Fonts/" "apps/" "../" ".dmenu_cache" "datasheet/" ".python_history" "Music/" "Aiyoku_no_Eustia.7z" ".fehbg" ".steampath" ".gtkrc-2.0" "subratm.kmy.1~" ".nvidia-settings-rc" ".pki/" ".serverauth.3780" ".viminfo" ".idea-build/" ".zcompdump-bigboi-5.5" ".fonts/" ".gnome/" "subratm.kmy" ".sbt/" ".elementary/" "FORTUNE ARTERIAL.7z" ".ssh/" ".nv/" ".dbus/" ".mozilla/" ".profile" ".elinks/" ".Xauthority" ".steam/" ".java/" ".bash_logout" "Downloads/" "zdf.pdf" ".ghc/" "Desktop/" ".steampid")
 
- ("/home/subratm/.config/i3/" (23278 50932 240554 937000) "config" "../" "./" "config.old" "config~")
+ ("/home/munu/Downloads/Single - ED 1 - My Will/" (23415 13473 672155 668000) "07 w.h.y [Instrumental].flac" "./" "03 My will [landscape mix].flac" "05 w.h.y [Dub's Floor Remix Pop Tune 001].flac" "06 My will [Nocturne Club Mix].flac" "08 My will [Instrumental].flac" "01 My will [Original Mix].flac" "04 w.h.y [Original Mix].flac" "../" "02 w.h.y [D-Z DREAM STRIDE MIX].flac")
 
- ("/home/subratm/.config/" (23314 41676 619936 354000) "user-dirs.dirs" "kicad/" "totem/" "gnome-session/" "emailidentities" "pulse/" "yelp/" "mimeapps.list" "zathura/" "nautilus/" "csvexporterrc" "QtProject.conf" "ghb/" "gnome-control-center/" "KVIrc/" "i3.backup/" "configstore/" "okularpartrc" "jaxx/" "gtk-4.0/" "gtk-3.0/" "menus/" "streamlink/" "monitors.xml" "../" "libreoffice/" "gnome-boxes/" "htop/" "kmymoney/" "i3/" "autostart/" "eog/" "vlc/" "chromium/" "monitors-v1-backup.xml" "./" "polybar/" "kmymoneyrc" "gtk-2.0/" "okularrc" "FreeCAD/" "opera-developer/" "homebank/" "pavucontrol.ini" "gconf/" "Kitware/" "gedit/" "kvirc" "ibus/" "user-dirs.locale" "session/" "google-chrome-unstable/" "Trolltech.conf" "enchant/" "google-chrome/" "hexchat/" "abrt/" "goa-1.0/" "etcher-electron/" "dconf/" "monitors.xml~" "mpv/" "gnome-initial-setup-done" "transmission/" "libvirt/" "fontconfig/" "cef_user_data/" "evolution/" "i3status/" "wireshark/" "emaildefaults")
+ ("/home/munu/Downloads/" (23415 9849 140080 655000) ".xyz/" "./" "[2005.11.09]_LIFE.zip" "machine-learning-ex1.zip" "nixos-graphical-18.03.132803.2f06e04b74e-x86_64-linux.iso" "colors-circles-abstract-2K-wallpaper.jpg" "_7532aa933df0e5055d163b77102ff2fb_Lecture4.pdf" "r21m527338411.jpg" "NOX_Euro6_Diesel_299847.jpg" "../" "[2005.11.09] LIFE/" "Lato.zip" "6483_Coloured-lights-and-the-apple-logo-on-the-wall.jpg" "machine-learning-ex1/" "Single - ED 1 - My Will/")
+
+ ("/home/munu/Downloads/machine-learning-ex1/ex1/" (23361 45442 923101 243000) "computeCost.m" "token.mat" "normalEqn.m" "ex1data1.txt" "ex1.m" "warmUpExercise.m" "./" "ex1data2.txt" "submit.m" "computeCostMulti.m" "plotData.m" "featureNormalize.m" "../" "gradientDescentMulti.m" "gradientDescent.m" "ex1_multi.m" "lib/")
+
+ ("/home/munu/Downloads/machine-learning-ex1/" (22735 27966 0 0) "./" "ex1/" "../" "ex1.pdf")
+
+ ("/home/munu/Project/haskell/tut/" (23331 62152 147880 975000) "tutorial.hs" "tutorial.hs~" "./" "../" "#tutorial.hs#")
+
+ ("/home/munu/Project/haskell/" (23331 61084 274938 614000) "./" "tut/" "../")
+
+ ("/home/munu/Project/" (23331 61084 274938 614000) "led disp/" "./" "haskell/" "z3/" "../")
+
+ ("/usr/portage/x11-drivers/nvidia-drivers/" (23318 39223 45986 798000) "nvidia-drivers-384.130.ebuild" "../" "nvidia-drivers-381.22-r1.ebuild" "Manifest" "nvidia-drivers-304.137.ebuild" "nvidia-drivers-390.48.ebuild" "nvidia-drivers-396.24.ebuild" "./" "nvidia-drivers-390.59.ebuild" "nvidia-drivers-375.82.ebuild" "nvidia-drivers-378.13-r1.ebuild" "metadata.xml" "files/" "nvidia-drivers-387.34.ebuild" "nvidia-drivers-340.106.ebuild")
+
+ ("/usr/portage/x11-drivers/" (23318 39223 12986 800000) "xf86-input-evdev/" "xf86-input-joystick/" "../" "xf86-input-elographics/" "xf86-video-siliconmotion/" "xf86-input-synaptics/" "xf86-input-keyboard/" "nvidia-drivers/" "xf86-video-vboxvideo/" "xf86-video-nv/" "xf86-input-mouse/" "xf86-video-amdgpu/" "./" "xf86-video-fbdev/" "xf86-video-ast/" "xf86-input-mtrack/" "xf86-video-geode/" "xf86-video-glint/" "xf86-video-ati/" "xf86-input-libinput/" "xf86-video-virtualbox/" "xf86-video-nouveau/" "xf86-video-tdfx/" "xf86-video-mga/" "xf86-video-newport/" "xf86-video-dummy/" "xf86-input-void/" "xf86-input-wacom/" "xf86-video-voodoo/" "Manifest.gz" "xf86-video-vesa/" "metadata.xml" "xf86-input-vmmouse/" "xf86-video-openchrome/" "xf86-input-tslib/" "xf86-video-omap/" "xf86-video-r128/" "xf86-video-vmware/" "xf86-video-qxl/" "xf86-video-intel/")
+
+ ("/usr/portage/x11-wm/" (23318 39223 538986 775000) "../" "wmfs/" "oroborus/" "sithwm/" "spectrwm/" "windowmaker/" "evilwm/" "blackbox/" "treewm/" "qtile/" "selectwm/" "awesome/" "./" "pekwm/" "i3/" "plwm/" "stumpwm/" "page/" "xmonad-contrib/" "wmii/" "echinus/" "notion/" "lwm/" "i3-gaps/" "fluxbox/" "aewm++/" "goomwwm/" "sawfish/" "matwm2/" "cwm/" "dwm/" "xmonad/" "enlightenment/" "openbox/" "bspwm/" "ratpoison/" "marco/" "xoat/" "windowlab/" "icewm/" "mutter/" "jwm/" "muffin/" "Manifest.gz" "fvwm/" "metadata.xml" "wm2/" "twm/" "aewm/" "musca/" "stumpwm-contrib/" "larswm/" "subtle/" "amiwm/" "lumina/" "afterstep/" "ctwm/" "herbstluftwm/" "xpra/" "vtwm/")
+
+ ("/usr/portage/" (23318 39200 457987 890000) "net-p2p/" "dev-tex/" "games-fps/" "app-text/" "dev-go/" "sci-astronomy/" "x11-proto/" "../" "dev-qt/" "dev-db/" "net-dialup/" "dev-perl/" "mate-base/" "sci-electronics/" "Manifest" "virtual/" "dev-php/" "Manifest.files.gz" "net-wireless/" "net-mail/" "sec-policy/" "sys-boot/" "sys-freebsd/" "games-action/" "sci-chemistry/" "sci-biology/" "app-officeext/" "games-server/" "app-shells/" "kde-frameworks/" "dev-python/" "perl-core/" "www-servers/" "games-arcade/" "gnustep-base/" "kde-apps/" "app-metrics/" "dev-java/" "app-backup/" "media-radio/" "gnome-base/" "header.txt" "net-ftp/" "media-gfx/" "games-board/" "www-apps/" "app-emacs/" "app-laptop/" "x11-plugins/" "dev-dotnet/" "net-vpn/" "sci-mathematics/" "x11-apps/" "./" "games-util/" "dev-vcs/" "sys-kernel/" "app-admin/" "dev-ada/" "app-misc/" "media-fonts/" "x11-misc/" "dev-ml/" "mate-extra/" "mail-filter/" "dev-lisp/" "net-news/" "net-print/" "x11-base/" "sys-libs/" "lxde-base/" "games-emulation/" "sys-power/" "sci-libs/" "dev-games/" "sys-firmware/" "app-portage/" "sys-devel/" "x11-themes/" "app-forensics/" "app-editors/" "app-pda/" "sci-visualization/" "dev-texlive/" "www-client/" "scripts/" "dev-util/" "x11-wm/" "dev-scheme/" "mail-client/" "sci-physics/" "xfce-extra/" "app-benchmarks/" "www-plugins/" "app-antivirus/" "app-emulation/" "net-nds/" "net-im/" "distfiles/" "sys-fs/" "x11-terms/" "media-sound/" "dev-embedded/" "net-voip/" "sys-block/" "games-roguelike/" "games-mud/" "app-eselect/" "app-mobilephone/" "games-rpg/" "gnustep-libs/" "app-accessibility/" "dev-ros/" "app-arch/" "media-video/" "eclass/" "sys-auth/" "app-dicts/" "gnustep-apps/" "net-nntp/" "app-leechcraft/" "app-i18n/" "dev-tcltk/" "ros-meta/" "dev-lang/" "dev-haskell/" "x11-libs/" "net-analyzer/" "kde-misc/" "sys-process/" "games-puzzle/" "licenses/" "dev-lua/" "games-kids/" "profiles/" "net-irc/" "x11-drivers/" "games-engines/" "sci-geosciences/" "lxqt-base/" "www-apache/" "app-crypt/" "net-firewall/" "app-office/" "app-vim/" "java-virtuals/" "sci-calculators/" "media-tv/" "sci-misc/" "dev-libs/" "skel.metadata.xml" "games-misc/" "app-cdr/" "mail-mta/" "skel.ebuild" "dev-ruby/" "net-libs/" "dev-erlang/" "media-plugins/" "www-misc/" "net-misc/" "kde-plasma/" "dev-cpp/" "app-doc/" "metadata/" "games-strategy/" "xfce-base/" "sys-fabric/" "net-proxy/" "games-sports/" "net-dns/" "net-fs/" "sys-cluster/" "media-libs/" "gnome-extra/" "sys-apps/" "games-simulation/" "app-xemacs/")
+
+ ("/usr/" (23297 39439 899317 400000) "../" "include/" "portage/" "lib64/" "x86_64-pc-linux-gnu/" "share/" "./" "local/" "lib32/" "sbin/" "src/" "libexec/" "lib/" "bin/" "tmp/")
+
+ ("/home/munu/.config/i3blocks/" (23312 22019 162031 26000) "config" "./" "config~" "../")
+
+ ("/home/munu/.config/i3/" (23312 29569 616187 291000) "config" "./" "config.old" "config~" "../")
+
+ ("/home/munu/.config/" (23312 3756 812145 885000) "pavucontrol.ini" "pulse/" "dconf/" "mpv/" "google-chrome/" ".mono/" "deadbeef/" "menus/" "cef_user_data/" "./" "conky/" "enchant/" "fontconfig/" "gtk-3.0/" "gtk-2.0/" "kmymoney/" "zathura/" "../" "gconf/" "QtProject.conf" "hexchat/" "kicad/" "i3/" "i3blocks/" "okularrc" "unity3d/" "mimeapps.list" "kactivitymanagerdrc" "htop/")
+
+ ("/home/munu/Project/led disp/pcb/proto_1_16x16/" (23300 29386 530110 941000) "led_p10_16x16.kicad_pcb-bak" "led_p10_16x16-rescue.lib" "led_p10_16x16.pro" "./" "led_p10_16x16.kicad_pcb" "led_p10_16x16.net" "../" "led_p10_16x16-cache.lib" "led_p10_16x16.sch" "led_p10_16x16.bak")
+
+ ("/home/munu/Project/led disp/pcb/" (23298 56589 554301 470000) "./" "../" "proto_1_16x16/" "lib/")
+
+ ("/home/munu/Project/led disp/" (23298 56589 760301 474000) "./" ".git/" "../" "pcb/" "doc/")
 
  ("/home/subratm/Documents/" (23228 62673 815627 414000) "z800cpus.py~" "boarding passes image2018-03-16-195753.pdf" "../" "alten/" "./" "identification/" "z800cpus.py" "home24-10106004297788.pdf" "SPEC_PSU_FSP250-30PFJ_Rev.1.3.pdf" "home sec/" "hitesh rent 201801.pdf" "z800cpus.csv" "cv_chrono/" "house/" "home24-10106004299819.pdf" "Books/")
 
@@ -85,19 +137,27 @@
 
  ("/etc/" (23266 63687 793311 509000) "sudoers" "nginx/" "rc1.d/" "gdbinit.d/" "subgid-" "wpa_supplicant/" "jvm-commmon/" "i3/" "radvd.conf" "rc.d/" "issue.net" "dbus-1/" "vconsole.conf" "popt.d/" "fcoe/" "scl/" "xinetd.d/" "aliases" "fw_env.config" "php.ini~" "host.conf" "DIR_COLORS.lightbgcolor" "OpenCL/" "krb5.conf.d/" ".updated" "zlogin" "rdma/" "hba.conf" "foomatic/" "vpnc/" "dnf/" "yum.repos.d/" "X11/" "audit/" "makedumpfile.conf.sample" "php-fpm.d/" "locale.conf" "cron.hourly/" "subgid" "environment" "php.ini" "protocols" "filesystems" "gconf/" "DIR_COLORS.256color" "statetab.d/" "openldap/" "brltty.conf" "security/" "sasl2/" "modprobe.d/" "mke2fs.conf" "localtime" "dnsmasq.d/" "at.deny" "sysctl.conf" "usb_modeswitch.conf" "drirc" "grub2.cfg" "mime.types" "conky/" "i3status.conf" "dracut.conf.d/" "zfs-fuse/" "crypto-policies/" "kderc" "tcsd.conf" "xdg/" "hostname" "bash_completion.d/" "dconf/" "sudoers.d/" "nsswitch.conf.rpmnew" "dhcp/" "init.d/" ".java/" "sbt/" "mcelog/" "flatpak/" "resolv.conf" "kdump.conf" "zlogout" "rc0.d/" "ethertypes" "tmpfiles.d/" "mpd.conf" "bashrc" "modules-load.d/" "gamin/" "chkconfig.d/" "fedora-release" "lvm/" "vimrc" "passwdqc.conf" "motd" "passwd-" "magic" "polkit-1/" "hosts.allow" "mtab" "services" "GREP_COLORS" "adjtime" "libibverbs.d/" "networks" "openvpn/" "sane.d/" "audisp/" "trusted-key.key" "fstab" "egl/" "vmware-tools/" "DIR_COLORS" "default/" "chrony.keys" "nsswitch.conf.bak" "virc" "grub.d/" "rc5.d/" "rwtab" ".pwd.lock" "gcrypt/" "rwtab.d/" "shadow" "updatedb.conf" "firewalld/" "vdpau_wrapper.cfg" "vulkan/" "my.cnf" "hosts" "modulefiles/" "rc6.d/" "e2fsck.conf" "alsa/" "printcap" "libaudit.conf" "csh.cshrc" "csh.login" "request-key.d/" "shells" "profile" "cups/" "exports" "libblockdev/" "cron.weekly/" "rc2.d/" "rpm/" "gdbinit" "system-release" "cron.monthly/" "mailcap" "favicon.png" "mail.rc" "os-release" "xml/" "gnupg/" "my.cnf.d/" "passwd" "groff/" "exports.d/" "bluetooth/" "system-release-cpe" "sestatus.conf" "kde/" "request-key.conf" "alternatives/" "xattr.conf" "plymouth/" "skel/" "pm/" "cron.deny" "pipewire/" "ppp/" "ld.so.conf" "zprofile" "wgetrc" "ostree/" "crontab" "ld.so.conf.d/" "nanorc" "dnsmasq.conf" "systemd/" "geoclue/" "yum/" "subuid" "php-zts.d/" "qemu/" "udisks2/" "glvnd/" "ld.so.cache" "youtube-dl.conf" "php.d/" "jwhois.conf" "setuptool.d/" "inittab" "cron.d/" "gshadow" "iscsi/" "redhat-release" "idmapd.conf" "depmod.d/" "shadow-" "crypttab" "redhat-lsb/" "group" "profile.d/" "texlive/" "rc3.d/" "fprintd.conf" "pinforc" "Trolltech.conf" "binfmt.d/" "login.defs" "php-fpm.conf" "speech-dispatcher/" "hp/" "hosts.deny" "terminfo/" "man_db.conf" "inputrc" "wvdial.conf" "ssl/" "nfsmount.conf" "brltty/" "pkcs11/" "asound.conf" "zshenv" "fonts/" "sos.conf" "jvm/" "nsswitch.conf" "chrony.conf" "cupshelpers/" "anacrontab" "pki/" "sysconfig/" "logrotate.d/" "issue" "opt/" "gshadow-" "multipath/" "ImageMagick-6/" "subuid-" "highlight/" "machine-info" "logrotate.conf" "avahi/" "zm/" "setroubleshoot/" "selinux/" "machine-id" "ssh/" "httpd/" "mtools.conf" "gssproxy/" "libuser.conf" "gdm/" "netconfig" "PackageKit/" "smi.conf" "fwupd/" "cron.daily/" "krb5.conf" "prelink.conf.d/" "gimp/" "grub2-efi.cfg" "rc4.d/" "kernel/" "corosync/" "java/" "openal/" "abrt/" "mpv/" "rygel.conf" "lsb-release.d/" "zshrc" "firefox/" "rpc" "extlinux.conf" "udev/" "gss/" "samba/" "libnl/" "memtest86+.conf" "sssd/" "NetworkManager/" "dracut.conf" "UPower/" "cifs-utils/" "pam.d/" "dleyna-server-service.conf" "rhashrc" "iproute2/" "statetab" "brlapi.key" "sgml/" "sysctl.d/" "kde4rc" "slp.conf" "group-" "libreport/" "pulse/" "libvirt/" "fuse.conf" "nfs.conf" "../" "./")
 
+ ("/home/subratm/.emacs.d/" (23228 62716 918382 29000) "tramp" "../" "./" "ac-comphist.dat" "session.107f2bab9c73b7f897150975523755218300000015570089" "smex-items" "elpa/" "ido.last" "auto-save-list/" "ido.last~" "init.el~" "init.el" "projectile-bookmarks.eld")
+
  ("/home/subratm/projects/homesec/nvr/src/" (23209 43879 790520 160000) "../" "main.rs" "./")
 
  ("/home/subratm/projects/homesec/nvr/" (23209 40198 295624 5000) "src/" "Cargo.toml" "../" ".git/" "./" "target/" "Cargo.lock" ".gitignore" "out.ts")
 
  ("/home/subratm/projects/" (23264 63023 354475 267000) "orangepi_h3_linux/" "hsui/" "PickUp/" "../" "elmy/" "homesec/" "./" "polybar/" "led disp/" "siji/" "Shinobi/" "material-design-icons/" "x264/" "proglang-a/")
 
+ ("/home/subratm/" (23266 60091 720608 843000) ".bash_profile" "x.png" ".esd_auth" ".minecraft/" ".gitconfig" ".fonts/" ".cache/" "kicadlib/" "package-lock.json" "scripts/" "Music/" ".zsh_history" "temp/" ".bashrc" ".Xdefaults" ".npmrc" ".npm/" ".node/" ".AndroidStudio2.3/" ".pm2/" ".android/" ".m2/" "prefix/" ".steampath" "toolchain/" ".gradle/" "../" "Documents/" ".dvdcss/" "Devel/" ".ghc/" "tremor/" "subratm.kmy" ".argouml/" "elm-package.json" ".gdbinit" ".stack/" ".viminfo" "Pictures/" "projects/" ".steampid" "Videos/" "Templates/" ".aqbanking/" "./" "keystore/" ".steam/" "Naruto Hokage Funeral Theme-mmqJ4Vzwe40.m4a" "Apps/" "target/" ".AndroidStudio3.0/" "node_modules/" ".xinitrc" "ipv6.png" ".sbt/" ".pki/" ".ICEauthority" ".ivy2/" ".zcompdump-zed-5.4.1" ".gimp-2.8/" ".cargo/" "nodesource-fc27.repo" ".gnupg/" ".elm/" ".java/" ".zcompdump-zed-5.3.1" ".zcompdump-zed-5.2" ".profile" "elm-stuff/" ".mozilla/" ".zsh-update" ".yEd/" ".oracle_jre_usage/" ".gitignore_global" ".gtkrc-2.0" "AndroidStudioProjects/" ".vim/" ".bash_history" ".fehbg" "sd32g_nocomp.tbz2" "Fonts/" ".install4j" "Public/" ".config/" ".Xdefaults~" ".mysql_history" ".lesshst" ".xmonad/" "니화, NiiHWA - What I Want by 매드독 OST Part 2-npFRaC2RKjk.m4a" ".zshrc" "Desktop/" ".kde/" ".rustup/" ".gphoto/" "out.ts" ".bash_logout" "IdeaProjects/" ".local/" "snap/" ".gnome/" ".IdeaIC2017.2/" "bin/" ".oh-my-zsh/" ".multirust/" ".ssh/" ".ipython/" ".thumbnails/" ".emacs.d/" "Downloads/" "cvs/")
+
  ("/home/subratm/projects/homesec/" (23187 742 707752 772000) "ffmcedrus/" "design/" "../" "./" "forbes cost" "nvr/")
+
+ ("/home/subratm/.config/i3/" (23178 47457 557858 699000) "config" "../" "./" "config.old" "config~")
 
  ("/home/subratm/projects/elmy/elm-architecture-tutorial/" (23171 25640 454248 123000) "LICENSE" "README.md" "../" "elm-package.json" ".git/" "./" "examples/" ".gitignore" "elm-stuff/")
 
  ("/home/subratm/projects/elmy/elm-architecture-tutorial/examples/" (23168 54199 862463 573000) "Dice-5.svg" "06-clock.elm" "../" "Dice-3.svg" "./" "Dice-6.svg" "07-websockets.elm" "09-radio.elm" "08-checkboxes.elm" "05-http.elm" "03-form.elm" "Dice-1.svg" "Dice-4.svg" "01-button.elm" "04-random.elm" "02-field.elm" "Dice-2.svg")
 
  ("/home/subratm/.config/polybar/" (23159 19881 480577 46000) "config" "../" "./" "launch.sh" "config__" "config~")
+
+ ("/home/subratm/.config/" (23168 6478 230334 405000) "user-dirs.dirs" "totem/" "gnome-session/" "pulse/" "yelp/" "mimeapps.list" "nautilus/" "QtProject.conf" "ghb/" "gnome-control-center/" "KVIrc/" "i3.backup/" "configstore/" "okularpartrc" "gtk-3.0/" "menus/" "streamlink/" "monitors.xml" "../" "libreoffice/" "gnome-boxes/" "htop/" "i3/" "autostart/" "eog/" "vlc/" "chromium/" "monitors-v1-backup.xml" "./" "polybar/" "gtk-2.0/" "okularrc" "pavucontrol.ini" "gconf/" "Kitware/" "gedit/" "kvirc" "ibus/" "user-dirs.locale" "session/" "google-chrome-unstable/" "Trolltech.conf" "enchant/" "hexchat/" "abrt/" "goa-1.0/" "dconf/" "monitors.xml~" "mpv/" "gnome-initial-setup-done" "libvirt/" "cef_user_data/" "evolution/" "wireshark/")
 
  ("/home/subratm/projects/elmy/" (23166 55990 323570 862000) "../" "./" "elm-architecture-tutorial/")
 
