@@ -163,3 +163,6 @@ bar {
 }
 
 exec --no-startup-id lxpolkit
+exec spacefm
+exec nightly
+exec sudo adb start-server
