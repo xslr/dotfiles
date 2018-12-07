@@ -150,6 +150,7 @@ for_window [class="Firefox"] move container to workspace 4
 for_window [class="Nightly"] move container to workspace 4
 for_window [class="Nightly" window_role="About"] floating enable
 for_window [instance="sun-awt-X11-XDialogPeer"] floating enable
+for_window [class="mpv"] floating enable
 for_window [class="octave-gui"] floating enable
 for_window [class="Steam"] floating enable
 for_window [class="Steam"] move container to workspace 5
@@ -162,7 +163,9 @@ bar {
         font pango:Iosevka Bold 10
 }
 
+exec feh --bg-center ~/Pictures/wallpapers/197355a690899e8130c62768c95d98a86d10cef4fd47.png
 exec --no-startup-id lxpolkit
 exec spacefm
 exec nightly
 exec sudo adb start-server
+exec compton
