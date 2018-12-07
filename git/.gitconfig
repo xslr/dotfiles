@@ -3,3 +3,5 @@
 [user]
 	email = smeher02.aoe3@gmail.com
 	name = Subrat Meher
+[alias]
+	st = status --short --show-stash
