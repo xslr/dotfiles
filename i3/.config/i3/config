@@ -168,4 +168,5 @@ exec --no-startup-id lxpolkit
 exec spacefm
 exec nightly
 exec sudo adb start-server
-exec compton
+#exec compton
+exec $HOME/Project/fanmap/pc/target/release/pc
