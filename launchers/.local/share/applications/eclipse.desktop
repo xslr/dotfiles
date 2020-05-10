@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Encoding=UTF-8
+Exec=/opt/eclipse/cpp-2020-03/eclipse/eclipse
+Icon=/opt/eclipse/cpp-2020-03/eclipse/icon.xpm
+StartupNotify=false
+Categories=X-XFCE;Development;
+OnlyShowIn=XFCE;
+Name=Eclipse C++
+Comment=Eclipse C++ IDE

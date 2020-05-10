@@ -148,13 +148,15 @@ bindsym $mod+r mode "resize"
 
 for_window [class="Firefox"] move container to workspace 4
 for_window [class="Nightly"] move container to workspace 4
-for_window [class="Nightly" window_role="About"] floating enable
+for_window [class="(Firefox)|(Navigator)" window_role="About"] floating enable
 for_window [instance="sun-awt-X11-XDialogPeer"] floating enable
 for_window [class="mpv"] floating enable
+for_window [class="jetbrains-pycharm-ce"] floating enable
 for_window [class="octave-gui"] floating enable
 for_window [class="Steam"] floating enable
 for_window [class="Steam"] move container to workspace 5
 for_window [class="Spacefm"] move container to workspace 1
+for_window [title="^xl$"] floating enable
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
@@ -163,10 +165,13 @@ bar {
         font pango:Iosevka Bold 10
 }
 
-exec feh --bg-center ~/Pictures/wallpapers/197355a690899e8130c62768c95d98a86d10cef4fd47.png
+exec feh --bg-fill ~/Pictures/wallpapers/Honda_-_CR-Z_-_Mondial_de_l\'Automobile_de_Paris_2012_-_201.jpg
+#exec feh --bg-center ~/Pictures/wallpapers/197355a690899e8130c62768c95d98a86d10cef4fd47.png
 exec --no-startup-id lxpolkit
 exec spacefm
-exec nightly
+#exec nightly
+exec firefox
 exec sudo adb start-server
 #exec compton
-exec $HOME/Project/fanmap/pc/target/release/pc
+exec python3 $HOME/Project/fanmap/auto_fan_speed_linux.py
+#exec nm-applet

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Encoding=UTF-8
+Exec=/home/munu/app/mcu_eclipse_4.7/eclipse
+Icon=/home/munu/app/mcu_eclipse_4.7/icon.xpm
+StartupNotify=false
+Categories=X-XFCE;Development;
+OnlyShowIn=XFCE;
+Name=GNU MCU Eclipse
+Comment=GNU MCU Eclipse IDE for C/C++ Developers

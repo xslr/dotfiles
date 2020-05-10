@@ -1,0 +1,85 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [626 644])
+            ("string.h" include (:system-flag t) nil [645 664])
+            ("ch.h" include nil nil [666 681])
+            ("hal.h" include nil nil [682 698])
+            ("shell.h" include nil nil [700 718])
+            ("chprintf.h" include nil nil [719 740])
+            ("usbcfg.h" include nil nil [742 761])
+            ("SHELL_WA_SIZE" variable (:constant-flag t) nil [1012 1025])
+            ("cmd_write" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("chp" variable
+                       (:pointer 1
+                        :type ("BaseSequentialStream" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1155 1181])
+                    ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1182 1191])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1192 1205]))                  
+                :type "void")
+                nil [1133 2927])
+            ("commands" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{
+  {\"write\", cmd_write},
+  {NULL, NULL}
+}"
+                :type ("ShellCommand" type (:type "class") nil nil))
+                nil [2929 3011])
+            ("shell_cfg1" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "{
+  (BaseSequentialStream *)&SDU1,
+  commands
+}"
+                :type ("ShellConfig" type (:type "class") nil nil))
+                nil [3013 3099])
+            ("THD_WORKING_AREA" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type ("waThread1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3419 3429]))                  
+                :type "int")
+                nil [3395 3435])
+            ("THD_FUNCTION" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type ("Thread1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3482 3490])
+                    ("" variable (:type ("arg" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3491 3495]))                  
+                :type "int")
+                nil [3436 3773])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3819 3824]))                  
+                :type "int")
+                nil [3810 5215]))          
+      :file "main.c"
+      :pointmax 5216
+      :fsize 5215
+      :lastmodtime '(24225 17228 948264 662000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SHELL_WA_SIZE" . ((symbol "THD_WORKING_AREA_SIZE" 1028 . 1049) (semantic-list "(2048)" 1049 . 1055)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :file "usbcfg.h"
+      :fsize 789
+      :lastmodtime '(24225 10895 565073 349000)))
+  :file "!home!munu!project!bench_psu!firmware!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
