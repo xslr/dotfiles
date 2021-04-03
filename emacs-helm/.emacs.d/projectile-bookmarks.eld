@@ -1,0 +1,1 @@
+("~/devel/stm32f4-bb/" "~/dotfiles/")
