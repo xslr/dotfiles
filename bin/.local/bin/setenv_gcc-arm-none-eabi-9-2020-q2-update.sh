@@ -10,4 +10,4 @@
 
 # prepend_path /home/munu/toolchain/gcc-arm-none-eabi-9-2019-q4-major/bin
 
-export PATH=/home/munu/toolchain/gcc-arm-none-eabi-9-2019-q4-major/bin:${PATH}
+export PATH=/home/munu/sdk/toolchain/gcc-arm-none-eabi-9-2020-q2-update/bin:${PATH}

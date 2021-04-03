@@ -1,0 +1,2 @@
+#!/bin/sh
+exec ~/Apps/VSCode-linux-x64/code
