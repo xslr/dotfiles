@@ -1,0 +1,2 @@
+;;; Generated package description from /home/munu/.emacs.d/elpa/counsel-projectile-0.3.1/counsel-projectile.el  -*- no-byte-compile: t -*-
+(define-package "counsel-projectile" "0.3.1" "Ivy integration for Projectile" '((counsel "0.13.0") (projectile "2.0.0")) :commit "d71a3274cfa9d7425f1bcee3eb2dfed9714ac16d" :authors '(("Eric Danan")) :maintainer '("Eric Danan") :keywords '("project" "convenience") :url "https://github.com/ericdanan/counsel-projectile")

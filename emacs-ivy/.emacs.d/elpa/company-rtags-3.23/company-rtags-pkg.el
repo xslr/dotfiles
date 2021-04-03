@@ -1,0 +1,2 @@
+;;; Generated package description from /home/munu/.emacs.d/elpa/company-rtags-3.23/company-rtags.el  -*- no-byte-compile: t -*-
+(define-package "company-rtags" "3.23" "RTags back-end for company" '((emacs "24.3") (company "0.8.1") (rtags "2.10")) :commit "7169ed577d676690a3c6f0025b54e8477d80eacf" :authors '(("Jan Erik Hanssen" . "jhanssen@gmail.com") ("Anders Bakken" . "agbakken@gmail.com")) :maintainer '("Jan Erik Hanssen" . "jhanssen@gmail.com") :url "http://rtags.net")

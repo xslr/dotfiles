@@ -1,0 +1,1 @@
+("~/dotfiles/" "~/devel/stm32f4-bb/" "~/devel/stm32f4-bb/third_party/stm32-cmake/" "~/devel/stm32f4-bb/third_party/STM32CubeF4/" "~/docs/ceevees/cv/" "~/devel/bench_psu/" "~/src/mosquitto/" "~/src/sw.tool.sunny_rz1_fuel_gauge_converter/" "~/src/docker-domoticz/" "~/src/dev-domoticz/" "/etc/")

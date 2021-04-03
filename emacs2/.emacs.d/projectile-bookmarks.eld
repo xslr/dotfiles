@@ -1,1 +1,0 @@
-("~/dotfiles/" "/mnt/gentoo-home/munu/devel/czero/" "~/project/bench_psu/fw3/" "~/project/bench_psu/" "~/project/bench_psu/firmware2/third_party/stm32-cmake/" "~/project/bench_psu/firmware/third_party/stm32-cmake/")
