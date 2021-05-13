@@ -163,8 +163,8 @@ input type:pointer {
 }
 
 
-output DP-1 pos 0 0
-output DP-2 pos 2560 0
+output DP-1 pos 2560 0
+output DP-2 pos 0 0
 
 workspace 1 output DP-2
 workspace 2 output DP-2
