@@ -1,0 +1,108 @@
+---
+- name: Configure fresh Debian system
+  hosts: localhost
+  connection: local
+  become: no
+
+  vars:
+    user_name: "{{ ansible_env.USER }}"
+  
+  handlers:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+        cache_valid_time: 3600
+      become: yes
+
+  tasks:
+    - become: yes
+      block:
+      - name: Update apt cache
+        apt:
+          update_cache: yes
+          cache_valid_time: 3600
+  
+      - name: Install essential packages
+        apt:
+          name:
+            - git
+            - curl
+            - ca-certificates
+          state: present
+  
+      - name: Switch to stable and enable contrib and non-free in main sources
+        replace:
+          path: /etc/apt/sources.list
+          regexp: '^(deb(-src)? \S*) (\w*) (.+)$'
+          replace: '\1 stable main contrib non-free non-free-firmware'
+        notify: Update apt cache
+  
+      - name: Switch to stable and enable contrib and non-free in security and updates sources
+        replace:
+          path: /etc/apt/sources.list
+          regexp: '^(deb(-src)? \S*) (\w*)-(\w*) (.+)$'
+          replace: '\1 stable-\4 main contrib non-free non-free-firmware'
+        notify: Update apt cache
+      
+      - name: Add docker repo
+        block:        
+          - name: Create keyrings directory
+            file:
+              path: /etc/apt/keyrings
+              state: directory
+              mode: '0755'
+          
+          - name: Download Docker GPG key
+            get_url:
+              url: https://download.docker.com/linux/debian/gpg
+              dest: /etc/apt/keyrings/docker.asc
+              mode: '0644'
+          
+          - name: Add Docker repository
+            apt_repository:
+              repo: "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian {{ ansible_distribution_release }} stable"
+              state: present
+              filename: docker
+      
+  
+      - name: Update apt cache
+        apt:
+          update_cache: yes
+          cache_valid_time: 3600
+  
+      - name: Install dev tools
+        apt:
+          name:
+            - neovim
+            - git
+            - htop
+            - ufw
+            - stow
+            - gimp
+            - tmux
+            - docker-ce
+            - docker-ce-cli
+            - containerd.io
+            - docker-buildx-plugin
+            - docker-compose-plugin
+  
+          state: present
+  
+      - name: Upgrade all packages
+        apt:
+          upgrade: dist
+
+    - name: Create user projects dir
+      file:
+        path: "/home/{{ user_name }}/co"
+        state: directory
+        owner: "{{ user_name }}"
+        group: "{{ user_name }}"
+      become: no
+
+    - name: Clone dotfiles
+      git:
+        repo: https://github.com/xslr/dotfiles.git
+        dest: "/home/{{ user_name }}/dotfiles"
+        version: master
+      become: no
