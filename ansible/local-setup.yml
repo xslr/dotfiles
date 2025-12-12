@@ -30,18 +30,18 @@
             - ca-certificates
           state: present
   
-      - name: Switch to stable and enable contrib and non-free in main sources
+      - name: Switch to testing and enable contrib and non-free in main sources
         replace:
           path: /etc/apt/sources.list
           regexp: '^(deb(-src)? \S*) (\w*) (.+)$'
-          replace: '\1 stable main contrib non-free non-free-firmware'
+          replace: '\1 testing main contrib non-free non-free-firmware'
         notify: Update apt cache
   
-      - name: Switch to stable and enable contrib and non-free in security and updates sources
+      - name: Switch to testing and enable contrib and non-free in security and updates sources
         replace:
           path: /etc/apt/sources.list
           regexp: '^(deb(-src)? \S*) (\w*)-(\w*) (.+)$'
-          replace: '\1 stable-\4 main contrib non-free non-free-firmware'
+          replace: '\1 testing-\4 main contrib non-free non-free-firmware'
         notify: Update apt cache
       
       - name: Add docker repo
@@ -58,11 +58,11 @@
               dest: /etc/apt/keyrings/docker.asc
               mode: '0644'
           
-          - name: Add Docker repository
-            apt_repository:
-              repo: "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian {{ ansible_distribution_release }} stable"
-              state: present
-              filename: docker
+#          - name: Add Docker repository
+#            apt_repository:
+#              repo: "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian {{ ansible_distribution_release }} stable"
+#              state: present
+#              filename: docker
       
   
       - name: Update apt cache
@@ -80,6 +80,21 @@
             - stow
             - gimp
             - tmux
+            - zsh
+            - nodejs
+            - npm
+            - imagemagick
+            - sqlite3
+            - kitty
+            - ripgrep
+            - lua5.4
+            - luarocks
+            - fzf
+            - fd-find
+            - fonts-font-awesome
+            - fonts-material-design-icons-iconfont
+            - fonts-weather-icons
+            - sway
             - docker-ce
             - docker-ce-cli
             - containerd.io
@@ -87,10 +102,17 @@
             - docker-compose-plugin
   
           state: present
-  
+            # TODO:
+            # - install iosevka nerd fonts
+            # - stow configs for nvim, kitty, git
       - name: Upgrade all packages
         apt:
           upgrade: dist
+
+      - name: Set user shell to zsh
+        ansible.builtin.user:
+          name: "{{ user_name }}"
+          shell: /bin/zsh
 
     - name: Create user projects dir
       file:
@@ -98,11 +120,26 @@
         state: directory
         owner: "{{ user_name }}"
         group: "{{ user_name }}"
-      become: no
 
     - name: Clone dotfiles
       git:
         repo: https://github.com/xslr/dotfiles.git
         dest: "/home/{{ user_name }}/dotfiles"
         version: master
-      become: no
+    
+    - name: Oh my zsh
+      block:        
+        - name: Create directory for ohmyzsh installer
+          file:
+            path: ohmyzsh
+            state: directory
+        
+        - name: Download oh my zsh install script
+          get_url:
+            url: https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+            dest: ./ohmyzsh/install.sh
+            mode: '0700'
+        
+        - name: Execute oh my zsh installer
+          ansible.builtin.script:
+            cmd: "./ohmyzsh/install.sh"
